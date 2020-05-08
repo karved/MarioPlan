@@ -1,32 +1,63 @@
 # MarioPlan
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+Since this is my first React App project, I followed a **YouTube** tutorial step by step to build it. The tutorial is a **React, Redux & Firebase App** playlist on **The Net Ninja** YouTube channel. Link to the playlist: https://www.youtube.com/playlist?list=PL4cUxeGkcC9iWstfXntcj8f-dFZ4UtlN3  
 
-In the project directory, you can run:
+## About  
 
-### `npm start`
+A simple web app which can be run on the browser as well as **added to the homescreen** on all available platforms.  
+Similar to a blog where user can :  
+1. **Signup** for creation of an account.  
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+2. **Login** with the created account crdentials.  
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+3. View the Dashboard which consists of **Notifications and Project**.
+   * Notifications consists of users created messages and new project added messages.
+   * Project consists of **Title**, **Username**  of the user who posted and **Time** of post.
+   * On clicking the Project, **Project details** are displayed
 
-### `npm run build`
+4. User can also **Create** a Project with Title and Content.
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### Sample Deployment : https://dk-mario-plan.web.app/
 
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
+## Technology 
+* React JS
+* Redux
+* Firebase - **Cloud Firestore**
+* Styling - [Materialize](https://materializecss.com/)
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Screenshots
+|||
+|---|---|
+|![alt text](https://github.com/karved/MarioPlan/blob/master/pics/signin.png)|![alt text](https://github.com/karved/MarioPlan/blob/master/pics/login.png)| 
 
-## Learn More
+![alt text](https://github.com/karved/MarioPlan/blob/master/pics/dashboard.jpg)  
+|||
+|--|--|
+|![alt text](https://github.com/karved/MarioPlan/blob/master/pics/create.png)|![alt text](https://github.com/karved/MarioPlan/blob/master/pics/project.png)|
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## Setup  
+1. Clone this repository or download zip.  
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+2. Navigate to project folder in terminal and type  
+      ``` 
+      npm install
+      ```
+
+3. Create your Firebase project at [console](https://console.firebase.google.com/u/0/)  
+
+4. Replace firebase credentials in ```/src/config/fbConfig.js``` with your credentials from Firebase console.
+
+5. Enable email-signin under Firebase --> Develop -->  Authentication.  
+
+6. Navigate to project folder in terminal and type  
+      ```
+      npm start
+      ```
+
+7. All set.
+
+
+
+
 
 
