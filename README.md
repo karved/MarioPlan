@@ -26,6 +26,7 @@ Users must register prior to logging in to the portal. After setting up an accou
 ![alt text](https://github.com/karved/MarioPlan/blob/master/pics/laptop.png)  
 
 ## Setup
+
 1. Clone this Repository or Download zip. 
    
 2. Navigate to project folder in terminal and type  
