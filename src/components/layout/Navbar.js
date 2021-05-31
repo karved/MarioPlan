@@ -10,12 +10,14 @@ const Navbar = (props) => {
   const {auth,profile} = props;
   const links = auth.uid ? <SignedInLinks profile={profile} /> :  <SignedOutLinks />;
   return (
+    <div className="navbar-fixed">
     <nav className="nav-wrapper grey darken-3">
       <div className="container">
         <Link to='/' className="brand-logo left">MarioPlan</Link>
       </div>
       <div className="container"> {links}</div>
     </nav>
+    </div>
   )
 }
 
