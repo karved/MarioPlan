@@ -18,12 +18,10 @@ Users must register prior to logging in to the portal. After setting up an accou
 * Styling- [Materialize](https://materializecss.com/)
 
 ## Screenshots
-|||
-|--|--|
-|![alt text](https://github.com/karved/MarioPlan/blob/master/pics/open.jpeg)|![alt text](https://github.com/karved/MarioPlan/blob/master/pics/login.jpeg)|
-|![alt text](https://github.com/karved/MarioPlan/blob/master/pics/sign.jpeg)|![alt text](https://github.com/karved/MarioPlan/blob/master/pics/dash.jpeg)|
-|![alt text](https://github.com/karved/MarioPlan/blob/master/pics/desc1.jpeg)|![alt text](https://github.com/karved/MarioPlan/blob/master/pics/create.jpeg)|
-|![alt text](https://github.com/karved/MarioPlan/blob/master/pics/dash2.jpeg)|![alt text](https://github.com/karved/MarioPlan/blob/master/pics/del.jpeg)|  
+|||||
+|--|--|--|--|
+|![alt text](https://github.com/karved/MarioPlan/blob/master/pics/open.jpeg)|![alt text](https://github.com/karved/MarioPlan/blob/master/pics/login.jpeg)|![alt text](https://github.com/karved/MarioPlan/blob/master/pics/sign.jpeg)|![alt text](https://github.com/karved/MarioPlan/blob/master/pics/dash.jpeg)|
+|![alt text](https://github.com/karved/MarioPlan/blob/master/pics/desc1.jpeg)|![alt text](https://github.com/karved/MarioPlan/blob/master/pics/create.jpeg)|![alt text](https://github.com/karved/MarioPlan/blob/master/pics/dash2.jpeg)|![alt text](https://github.com/karved/MarioPlan/blob/master/pics/del.jpeg)|  
 
 ![alt text](https://github.com/karved/MarioPlan/blob/master/pics/laptop.png)  
 
