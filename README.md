@@ -1,5 +1,7 @@
 # MarioPlan
 A simple Blog WebApp which uses Cloud services for authentication, storage, database, and hosting. It can be run on a web browser as well as a native application by adding it to the home-screen of all available platforms.  
+Mini Project built for **Cloud Computing** and **Human Machine Interactions Lab**.  
+
 Followed the [React, Redux & Firebase App Tutorial](https://www.youtube.com/playlist?list=PL4cUxeGkcC9iWstfXntcj8f-dFZ4UtlN3) by **The Net Ninja**.
 
 ## Description
