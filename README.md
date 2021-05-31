@@ -1,68 +1,48 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# MarioPlan
+A simple Blog WebApp which uses Cloud services for authentication, storage, database, and hosting. It can be run on a web browser as well as a native application by adding it to the home-screen of all available platforms.  
+Followed the [React, Redux & Firebase App Tutorial](https://www.youtube.com/playlist?list=PL4cUxeGkcC9iWstfXntcj8f-dFZ4UtlN3) by **The Net Ninja**.
 
-## Available Scripts
+## Description
+Users must register prior to logging in to the portal. After setting up an account, users will have access to view all the existing blogs posted by every user. Every blog will contain details like Title, Description, Date added and Author details. The portal also indicates the details of logged in user. Additionally, users can create and post their own blog by providing a Title and Description. Date and author details will be automated by the portal. Lastly, users have the feature of deleting a blog, provided they are an author to the respective blog.  
 
-In the project directory, you can run:
 
-### `npm start`
+### WebApp deployed at : https://dk-mario-plan.web.app/  
+  
+ 
+## Technology
+* React JS
+* Redux
+* Firebase - **Cloud Firestore**
+* Styling- [Materialize](https://materializecss.com/)
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## Screenshots
+|||
+|--|--|
+|![alt text](https://github.com/karved/MarioPlan/blob/master/pics/open.jpeg)|![alt text](https://github.com/karved/MarioPlan/blob/master/pics/login.jpeg)|
+|![alt text](https://github.com/karved/MarioPlan/blob/master/pics/sign.jpeg)|![alt text](https://github.com/karved/MarioPlan/blob/master/pics/dash.jpeg)|
+|![alt text](https://github.com/karved/MarioPlan/blob/master/pics/desc1.jpeg)|![alt text](https://github.com/karved/MarioPlan/blob/master/pics/create.jpeg)|
+|![alt text](https://github.com/karved/MarioPlan/blob/master/pics/dash2.jpeg)|![alt text](https://github.com/karved/MarioPlan/blob/master/pics/del.jpeg)|  
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+![alt text](https://github.com/karved/MarioPlan/blob/master/pics/laptop.png)  
 
-### `npm test`
+## Setup
+1. Clone this Repository or Download zip. 
+   
+2. Navigate to project folder in terminal and type  
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+    ```
+    npm install 
+    ```
 
-### `npm run build`
+3. Create your Firebase project at FIrebase [console](https://console.firebase.google.com/u/0/).  
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
+4. Replace Firebase credentials in ```/src/config/fbConfig.js``` with your credentials from Firebase console.  
 
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
+5. Navigate to project folder in terminal and type  
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+   ```
+    npm start 
+   ```  
 
-### `npm run eject`
+6. All set.
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (Webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
-
-### Analyzing the Bundle Size
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `npm run build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
